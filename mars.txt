@@ -1,0 +1,52 @@
+
+git status
+
+git add mars.txt
+
+git status
+
+git commit -m "Start notes on Mars as a base"
+
+git log
+
+nano mars.txt
+
+cat mars.txt
+
+git status
+
+git diff
+
+git add mars.txt
+
+git commit -m "Add concerns about effects of Mars' moons on 
+Wolfman"
+
+git log --oneline
+
+Exercise:
+
+https://eharstad.github.io/git-novice/03-changes.html
+
+
+
+
+cd ..
+
+mkdir bio
+
+cd bio
+
+git init
+
+
+
+
+git diff HEAD~1 mars.txt
+
+git diff HEAD~2 mars.txt
+
+git diff f22b25e3233b4645dabd0d81e651fe074bd8e73b mars.txt
+
+git diff f22b25e mars.txt
+
